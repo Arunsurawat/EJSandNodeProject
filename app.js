@@ -6,8 +6,7 @@ const InitInfo = require("./init/index.js");
 const path = require("path");
 const methodOverride = require("method-override");
 
-const MONGO_URL =
-  "mongodb+srv://ibweb3api:welcome123@cluster0.0rryp9q.mongodb.net/wanderlust";
+const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
 
 main()
   .then(async () => {
